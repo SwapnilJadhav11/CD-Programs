@@ -1,0 +1,5 @@
+/* anish */
+int main()
+{
+   a=b;
+}

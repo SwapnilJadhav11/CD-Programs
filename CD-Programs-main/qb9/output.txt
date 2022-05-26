@@ -1,0 +1,9 @@
+int main()
+{
+   
+1
+writef();
+   
+1
+readf();
+}

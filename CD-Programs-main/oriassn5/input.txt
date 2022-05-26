@@ -1,0 +1,16 @@
+if(x>y)
+{
+   return x;
+}
+
+else 
+{
+   return y;
+}
+
+
+
+if(a<b||b>c){return x;}
+
+if(a<b {return x;}
+if(x==True){return x;}

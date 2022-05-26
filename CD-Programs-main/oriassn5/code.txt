@@ -1,0 +1,26 @@
+if(x>y)
+if(x>y>z)
+if(x>y&&x>z)
+
+/*"("|")"|"{"|"}"|"["|"]"|";"|","|"="     {return yytext;}*/
+
+
+cond: scond
+|scond logop cond
+;
+
+scond: nid
+|nid relop nid
+;
+
+nid: ID
+|NUM
+;
+
+logop: AND
+|OR
+;
+
+
+"("|")"|"{"|"}"|"["|"]"|";"|","     {printf("%d",yytext);}
+"+"|"-"|"*"|"%"|"/"|"++"|"--"|"="       {return OP;}

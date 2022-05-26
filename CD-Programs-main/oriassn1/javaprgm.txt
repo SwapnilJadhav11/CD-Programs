@@ -1,0 +1,12 @@
+class HelloWorld {
+    // This is a Comment
+    public static void main(String[] args) {
+        int a,34mean,b;
+        /*This is comment*/
+        a = 25;
+        System.out.println("Hello, World");
+        b = 'qwer ty';
+        /*An unterminated comment
+        a = "This is an unterminated string;
+    }
+}
